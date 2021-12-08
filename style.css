@@ -49,3 +49,10 @@
 body {
   background-image: url("https://cdn.wallpapersafari.com/58/74/uI7GQv.jpg");
 }
+
+.secret-button {
+  color: transparent;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
