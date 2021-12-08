@@ -1,0 +1,51 @@
+.error {
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
+
+.input {
+  position: absolute;
+  top: 100px;
+  left: 400px;
+}
+
+.input > button {
+  font-size: 18px;
+}
+
+.input > p {
+  font-size: 18px;
+  margin-left: 125px;
+}
+
+.input > label {
+  font-size: 18px;
+  color: rgb(245, 217, 217);
+  font-weight: 700;
+}
+
+#info {
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  background: transparent;
+}
+
+#info > p {
+  font-size: 18px;
+  color: rgb(245, 217, 217);
+  font-weight: 700;
+}
+
+#info span {
+  font-size: 24px;
+  color: rgb(255, 243, 82);
+  font-weight: 700;
+}
+
+body {
+  background-image: url("https://cdn.wallpapersafari.com/58/74/uI7GQv.jpg");
+}

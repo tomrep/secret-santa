@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Ho Ho Ho!</title>
+    <meta name="description" content="Secret Santa page. Ho Ho Ho!" />
+    <meta name="author" content="tomrep" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>   
+    <div class="container">
+        <div class="input">
+            <label for="code">Zadaj svoj kod:</label>
+            <input type="text" id="code" name="code" />
+            <button onclick="handleSubmit()">Ho Ho Ho!</button>
+            <p id="warning" class="hidden">Zly kod!</p>
+        </div>
+    
+        <div id="info" class="hidden">
+            <p>
+                Darcek kupujes pre: <span></span>
+            </p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
